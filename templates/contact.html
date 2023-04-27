@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <link href="/static/css/jquery-ui.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header style="background-color: white" class="fixed inset-0 w-30 flex flex-col justify-center justify-items-center content-center h-20 rounded-b-lg ml-3">
+        <img src="/static/images/logoo.png" alt="Logo" class="object-contain w-20 self-left md:self-left md:w-30">
+        <div class="fixed inset-12 flex justify-end justify-items-center content-center content-end h-20 rounded-b-lg mr-3 space-x-2" style="color:#004A56;">
+                <a href="home.html">Home</a>
+                <a href="services.html">Services</a>
+                <a href="about.html">About Us</a>
+                <a href="contact.html">Contact</a>
+        </div>
+    </header>
+
+    <section class="flex flex-wrap mt-20 w-full" style="background-color: #004A56;">
+        <div class="flex self-center w-full flex flex-col md:h-screen" style="color:white">
+            <p class="ml-42 w-auto mt-20 md:h-fit m-2 p-8 text-xl self-center justify-center">We would love to respond to your queries and help you succeed.</p>
+            <p class="ml-38 -mt-10 w-auto text-xl self-center justify-center">Feel free to get in touch with us</p>
+            <form>
+                <h1 class="form w-auto mt-1 md:h-fit m-2 p-8 text-xl text-center self-center justify-center" cols="30" rows="10">Contact Us</h1>
+                <div class="form p-0 text-xl text-center self-center justify-center" cols="30" rows="10">
+                    <div class="right">
+                        <div class="align-content:center w-10/11 ml-28 p-2 text-xl text-center self-center justify-center" cols="30" rows="10">
+                            <input type="text" required>
+                            <span>Full Name</span>
+                        </div>
+  
+                        <div class="align-content:center w-10/11 ml-24 p-2 text-xl text-center self-center justify-center" cols="30" rows="10">
+                            <input type="E-mail" required>
+                            <span>E-mail Id</span>
+                        </div>
+                        <div class="align-content:center m-2 ml-48 w-[110%] mt-1 p-2 inline-flex:400px text-xl text-center self-center justify-center" cols="30" rows="10">
+                            <textarea name="text" class="ml-6 w-56"></textarea>
+                            <span> Type your Message....</span>
+                        </div>
+                        <p class="flex justify-center">
+                            <button class="m-1 bg-green-500 hover:bg-blue-700 text-white font-semi-bold py-2 px-4 rounded-lg" type="submit">
+                              Contact
+                            </button>
+                          </p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+</body>
+
+</html>
