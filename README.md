@@ -1,4 +1,3 @@
-#A Website for Metaphor Detection and Data Summarization 
 ![downloadfile_1](https://user-images.githubusercontent.com/131741408/235357891-eb426e05-af05-4fee-a57d-af36750ab874.jpg)
 ![downloadfile_2](https://user-images.githubusercontent.com/131741408/235357892-20d86e8c-a8ff-4417-a1d2-f4ebc73d327e.jpg)
 ![downloadfile_3](https://user-images.githubusercontent.com/131741408/235357899-c6f900b4-3e40-40fe-920f-a260d0a3d654.jpg)
